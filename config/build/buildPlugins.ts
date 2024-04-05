@@ -1,7 +1,7 @@
-import webpack from 'webpack'
-import HTMLWebpackPlugin from 'html-webpack-plugin'
-import { BuildOptions } from './types/config'
-import MiniCssExtractPlugin from 'mini-css-extract-plugin'
+import webpack from 'webpack';
+import HTMLWebpackPlugin from 'html-webpack-plugin';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
+import { BuildOptions } from './types/config';
 
 // const ReactRefreshWebpackPlugin = require('react-refresh-webpack-plugin')
 
@@ -23,5 +23,5 @@ export function buildPlugins({
     }),
     new webpack.HotModuleReplacementPlugin(),
     // new ReactRefreshWebpackPlugin(),
-  ]
+  ];
 }
