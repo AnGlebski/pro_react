@@ -40,7 +40,7 @@ module.exports = {
     'react/require-default-props': 'off',
     'react/jsx-props-no-spreading': 'warn',
     'react/function-component-definition': 'off',
-    'i18next/no-literal-string': 'off',
+    'i18next/no-literal-string': ['error', { markupOnly: true }],
     'no-shadow': 'off',
     'object-curly-newline': 'off',
   },
