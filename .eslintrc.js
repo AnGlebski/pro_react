@@ -43,6 +43,7 @@ module.exports = {
     'i18next/no-literal-string': ['error', { markupOnly: true }],
     'no-shadow': 'off',
     'object-curly-newline': 'off',
+    'comma-dangle': 'off',
   },
   globals: {
     __IS_DEV__: true,
